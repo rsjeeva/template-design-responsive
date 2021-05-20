@@ -27,32 +27,48 @@
 
 .container2{
     width: 50%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-right: 1rem;
-}
-
-.container2 ul{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
 }
 
-.container2 ul li{
-    list-style-type: none;
-    padding-right: 1.5rem;
+.container2 button{
+
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #343A40;
+    border: none;
+    
 }
 
-.container2 ul li a{
+i{
+    color: #007ACC;
+    border: none;
+}
+
+/* .container2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+/* .container2 ul li{
+    list-style-type: none;
+    padding-right: 1.5rem;
+} */
+
+/* .container2 ul li a{
     
     text-decoration: none;
     color: #9A9DA0;
     font-size: 1.2em;
     
-}
+} */
 
-.container2 ul li a:hover{
+/* .container2 ul li a:hover{
     color: white;
-}
+} */
 
 
 /*----Header----*/
@@ -223,6 +239,4 @@ footer p{
     flex-direction: column;
     justify-content: center;
 }
-
-
 }
